@@ -1,4 +1,4 @@
-# My Portfolio Website!
+# My Portfolio Website! <img src="public/alpaca.png" width="50" />
 
 [View live here!](https://machkeys.vercel.app/)
 
