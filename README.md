@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website!
 
-## Getting Started
+[View live here!](https://machkeys.vercel.app/)
 
-First, run the development server:
+## Details
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The technologies used to make this website are React v18.2 with TypeScript, Next.js 12.3.1, and TailwindCSS v3.1.8. I've also used Framer-Motion v7.4.0 to create the simple animations for the website, and I used packages including react-simple-typewriter and tailwindcss-scrollbar for additional customization.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Of course I themed my website around my favorite hobby that is custom mechanical keyboards, and had to base my colors on some of my favorite keycap color themes:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<div align="center">GMK Olivia
+<p><img src="https://www.oliviaplus.plus/renders/0.jpg" width="300" height="200"/></p>
+<sup>Credits: Olivia, the designer behind GMK Olivia</sup></div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<div align="center">SA Bliss
+<p><img src="https://cdn.shopify.com/s/files/1/0046/9539/2305/products/S75_01_e6802fd8-67ef-4696-955f-0978f9e476bc_800x.png?v=1635905456" width="300" height="200"/></p>
+<sup>Credits: Minterly, the designer behind SA Bliss</sup></div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+I definitely spent some time browsing other developer's portfolio sites before I got a good idea about how I wanted mine to look, and I had my up's and down's while coding everything, but I had a fun time overall and even drew my own pixel art! I'm definitely proud with how they turned out, although I definitely needed to look at some examples as it was my first time with pixel art.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
