@@ -6,11 +6,11 @@ The technologies used to make this website are React v18.2 with TypeScript, Next
 
 Of course I themed my website around my favorite hobby that is custom mechanical keyboards, and had to use some of my favorite keycap color themes:
 
-<p>GMK Olivia
-![olivia]<img src="https://www.oliviaplus.plus/renders/0.jpg" width="150" height="100"/>
+<p align="left">GMK Olivia
+<img src="https://www.oliviaplus.plus/renders/0.jpg" width="150" height="100"/>
 <sup>Credits: Olivia, the designer behind GMK Olivia</sup></p>
 
-SA Bliss
-![bliss]<img src="https://cdn.shopify.com/s/files/1/0046/9539/2305/products/S75_01_e6802fd8-67ef-4696-955f-0978f9e476bc_800x.png?v=1635905456" width="150" height="100"/>
-<sup>Credits: Minterly, the designer behind SA Bliss</sup>
+<p align="left">SA Bliss
+<img src="https://cdn.shopify.com/s/files/1/0046/9539/2305/products/S75_01_e6802fd8-67ef-4696-955f-0978f9e476bc_800x.png?v=1635905456" width="150" height="100"/>
+<sup>Credits: Minterly, the designer behind SA Bliss</sup></p>
 
