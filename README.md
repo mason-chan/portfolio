@@ -1,5 +1,7 @@
 # My Portfolio Website!
 
+[View live here!](https://machkeys.vercel.app/)
+
 ## Details
 
 The technologies used to make this website are React v18.2 with TypeScript, Next.js 12.3.1, and TailwindCSS v3.1.8. I've also used Framer-Motion v7.4.0 to create the simple animations for the website, and I used packages including react-simple-typewriter and tailwindcss-scrollbar for additional customization.
