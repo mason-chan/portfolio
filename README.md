@@ -20,5 +20,7 @@ Of course I themed my website around my favorite hobby that is custom mechanical
 
 I definitely spent some time browsing other developer's portfolio sites before I got a good idea about how I wanted mine to look, and I had my up's and down's while coding everything, but I had a fun time overall and even drew my own pixel art! I'm definitely proud with how they turned out, although I definitely needed to look at some examples as it was my first time with pixel art.
 
+## Status
 
+My portfolio is essentially complete, although I would eventually like to go back and possibly fix some small issues I have or fix anything I might have missed after looking through the code several times😅. And eventually I will pick up some more skills that will warrant me to make a v2 someday..!
 
