@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import Portrait from "../public/profile.jpg";
+import Portrait from "../public/profile.png";
 
 type Props = {};
 

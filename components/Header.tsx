@@ -115,7 +115,7 @@ function Header({}: Props) {
                 href="https://github.com/mctekno"
                 target="_blank"
                 variants={variantsMobile}
-                className="inline-block md:invisible w-full py-2 mx-0 text-center text-light md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center"
+                className="inline-block md:invisible w-full py-2 mx-0 text-center uppercase tracking-widest text-light md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center"
               >
                 Github
               </motion.a>
@@ -123,7 +123,7 @@ function Header({}: Props) {
                 href="https://www.linkedin.com/in/mason-chan555/"
                 target="_blank"
                 variants={variantsMobile}
-                className="inline-block md:invisible w-full py-2 mx-0 text-center text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
+                className="inline-block md:invisible w-full py-2 mx-0 text-center uppercase tracking-widest text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
               >
                 LinkedIn
               </motion.a>
@@ -131,16 +131,18 @@ function Header({}: Props) {
                 href="https://www.instagram.com/mach_keys/"
                 target="_blank"
                 variants={variantsMobile}
-                className="inline-block md:invisible w-full py-2 mx-0 text-center text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
+                className="inline-block md:invisible w-full py-2 mx-0 text-center uppercase tracking-widest text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
               >
                 Instagram
               </motion.a>
               <motion.a
-                href="#contact"
+                href="/mason_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 variants={variantsMobile}
-                className="inline-block md:invisible w-full py-2 mb-4 mx-0 text-center text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
+                className="inline-block md:invisible w-full py-2 mb-4 mx-0 text-center uppercase tracking-widest text-light md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
               >
-                Contact
+                Resume
               </motion.a>
             </motion.div>
             <motion.div
@@ -207,24 +209,14 @@ function Header({}: Props) {
                 </svg>
               </motion.a>
               <motion.a
-                href="#contact"
-                whileHover={{ scale: 1.15 }}
+                href="/mason_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
+                className="hidden md:inline-flex items-center justify-center px-4 py-1.5 ml-4 text-sm tracking-widest uppercase text-light border-2 border-light rounded-md focus:outline-none focus:shadow-none"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="#F5D1C8"
-                  className="pl-3 mr-0 h-11 w-auto hidden md:inline"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                  />
-                </svg>
+                Resume
               </motion.a>
             </motion.div>
           </motion.div>

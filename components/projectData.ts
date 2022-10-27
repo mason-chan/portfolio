@@ -16,7 +16,7 @@ export const allProjects = [
     {
         id: 'a',
         switch: '/alpaca.png',
-        category: 'Build - 01',
+        category: '01 - thockit',
         title: 'thockit',
         image: '/thockit.png',
         description: 'A Reddit clone themed around keyboards',
@@ -28,7 +28,7 @@ export const allProjects = [
     {
         id: 'b',
         switch: '/strawberry.png',
-        category: 'Build - 02',
+        category: '02 - minitype',
         title: 'minitype',
         image: '/minitype.png',
         description: 'A minimalistic typing test website with custom color themes',
@@ -40,7 +40,7 @@ export const allProjects = [
     {
         id: 'c',
         switch: '/marshmallow.png',
-        category: 'Build - 03',
+        category: '03 - wikeeb',
         title: 'wikeeb',
         image: '/wikeeb.png',
         description: 'A wiki style page about all things custom mechanical keyboards',
