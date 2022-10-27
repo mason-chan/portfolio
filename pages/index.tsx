@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           <Head>
             <title>Mason Chan</title>
             <meta name="description" content="personal portfolio" />
-            <meta property="og:image" content="/mason.png"/>
+            <meta property="og:image" content="https://machkeys.vercel.app/mason.png"/>
             <meta property="og:image:type" content="image/png"/>
             <meta property="og:image:width" content="1024"/>
             <meta property="og:image:height" content="1024"/>
