@@ -13,7 +13,7 @@ function About({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        className="xl:absolute xl:top-24 text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 text-center"
+        className="text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 text-center"
       >
         About Me
       </motion.h3>
@@ -73,7 +73,7 @@ function About({}: Props) {
             <p className="mb-4 font-light text-white xl:mb-6">
               I also dabbled in MATLAB during my mechanical engineering degree,
               but it wasn&apos;t until I picked up a particular hobby{" "}
-              <span className="text-light ">(Mechanical Keyboards!)</span>, that
+              <span className="text-light">(Mechanical Keyboards!)</span>, that
               influenced me into learning how to code! I now enjoy creating
               fluid, minimalistic digital works of art with my favorite
               peripheral(s){" "}

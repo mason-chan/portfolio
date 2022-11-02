@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
@@ -13,18 +12,20 @@ import Skills from "../components/Skills";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = React.useState(true);
+  const [loaded, setLoaded] = React.useState(false);
 
   const scrollToId = () => {
     if (typeof window !== 'undefined') {
       const hashId = window.location.hash;
       if (hashId) {
         const element = document.querySelector(hashId);
-        if (element) {
+        if (element && !loaded) {
           element.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
             inline: 'nearest',
           });
+          setLoaded(true);
         }
       }
     }

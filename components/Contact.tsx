@@ -24,7 +24,7 @@ function Contact({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        className="xl:absolute xl:top-24 text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 sm:pb-24 text-center"
+        className="text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 sm:pb-24 text-center"
       >
         Contact Me
       </motion.h3>

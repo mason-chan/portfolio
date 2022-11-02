@@ -14,11 +14,11 @@ function ProjectLayout({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        className="xl:absolute xl:top-24 text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 text-center"
+        className="text-2xl tracking-[20px] pl-[20px] uppercase text-gray-400 pb-16 text-center"
       >
         Projects
       </motion.h3>
-      <motion.nav
+      <motion.ul
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -26,7 +26,7 @@ function ProjectLayout({}: Props) {
         className="flex items-center justify-center w-full h-full py-5 pb-10 -ml-0 space-x-5 md:space-x-20 md:-ml-5 lg:space-x-40"
       >
         {item.map((item) => (
-          <a
+          <li
             key={item.id}
             className="relative px-5"
             onClick={() => setSelectedItem(item)}
@@ -41,9 +41,9 @@ function ProjectLayout({}: Props) {
                 />
               ) : null}
             </span>
-          </a>
+          </li>
         ))}
-      </motion.nav>
+      </motion.ul>
       <AnimatePresence mode="wait">
         <motion.div
           key={selectedItem ? selectedItem.id : "empty"}
