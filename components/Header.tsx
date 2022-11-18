@@ -112,7 +112,7 @@ function Header({}: Props) {
               className="flex flex-col items-start justify-center w-full text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center"
             >
               <motion.a
-                href="https://github.com/mctekno"
+                href="https://github.com/mason-chan"
                 target="_blank"
                 variants={variantsMobile}
                 className="inline-block md:invisible w-full py-2 mx-0 text-center uppercase tracking-widest text-light md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center"
@@ -155,7 +155,7 @@ function Header({}: Props) {
               <motion.a
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://github.com/mctekno"
+                href="https://github.com/mason-chan"
                 target="_blank"
               >
                 <svg

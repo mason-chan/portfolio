@@ -23,7 +23,7 @@ export const allProjects = [
         tools: 'NextJS | React | TypeScript  TailwindCSS | Supabase | Stepzen',
         keyboard: 'Hephaestus Works Nasu',
         live: 'https://thockit.vercel.app/',
-        github: 'https://github.com/mctekno/thockit'
+        github: 'https://github.com/mason-chan/thockit'
     },
     {
         id: 'b',
@@ -35,7 +35,7 @@ export const allProjects = [
         tools: 'React | TypeScript | TailwindCSS',
         keyboard: 'Monokei X TGR Tomo',
         live: 'https://mctekno.github.io/minitype/',
-        github: 'https://github.com/mctekno/minitype'
+        github: 'https://github.com/mason-chan/minitype'
     },
     {
         id: 'c',
@@ -47,7 +47,7 @@ export const allProjects = [
         tools: 'React | JavaScript | TailwindCSS',
         keyboard: 'Graystudio Space80',
         live: 'https://mctekno.github.io/wikeeb/',
-        github: 'https://github.com/mctekno/wikeeb'
+        github: 'https://github.com/mason-chan/wikeeb'
     }
 ]
 
