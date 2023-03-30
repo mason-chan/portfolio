@@ -34,7 +34,7 @@ export const allProjects = [
         description: 'A minimalistic typing test website with custom color themes',
         tools: 'React | TypeScript | TailwindCSS',
         keyboard: 'Monokei X TGR Tomo',
-        live: 'https://mctekno.github.io/minitype/',
+        live: 'https://mason-chan.github.io/minitype/',
         github: 'https://github.com/mason-chan/minitype'
     },
     {
@@ -46,7 +46,7 @@ export const allProjects = [
         description: 'A wiki style page about all things custom mechanical keyboards',
         tools: 'React | JavaScript | TailwindCSS',
         keyboard: 'Graystudio Space80',
-        live: 'https://mctekno.github.io/wikeeb/',
+        live: 'https://mason-chan.github.io/wikeeb/',
         github: 'https://github.com/mason-chan/wikeeb'
     }
 ]
